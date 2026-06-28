@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
+
+# System
+.DS_Store
+
+# Secrets
+.env
+*.key
